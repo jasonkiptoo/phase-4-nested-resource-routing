@@ -2,7 +2,7 @@
 place_adjectives = [
   "Beautiful",
   "Gorgeous",
-  "Lovely",
+  "Lovely", 
   "Stunning",
   "Convenient",
   "Cozy",
@@ -59,12 +59,12 @@ cities = [
   },
   {
     name: "Chicago",
-    lat: 41.8781, 
+    lat: 41.8781,
     lng: -87.6298
   },
   {
     name: "Seattle",
-    lat: 47.6062, 
+    lat: 47.6062,
     lng: -122.3321
   },
   {
@@ -74,12 +74,12 @@ cities = [
   },
   {
     name: "Denver",
-    lat: 39.7392, 
+    lat: 39.7392,
     lng: -104.9903
   },
   {
     name: "Houston",
-    lat: 29.7604, 
+    lat: 29.7604,
     lng: -95.3698
   }
 ]
@@ -93,7 +93,7 @@ def random_lat_lng(start_x, start_y)
 
   w = r * Math.sqrt(u)
   t = 2 * Math::PI * v
-  x = w * Math.cos(t) 
+  x = w * Math.cos(t)
   y = w * Math.sin(t)
 
   x = x / Math.cos(start_y)
